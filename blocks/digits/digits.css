@@ -1,8 +1,7 @@
-
-.techniques {
+.digits {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px auto 0;
-  width: 80%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
