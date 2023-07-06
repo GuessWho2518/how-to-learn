@@ -16,9 +16,10 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link"> Узнать &#8594;</a>
+        <a href="#" class="header__link" target="_blank"> Узнать &#8594;</a>
       </p>
-      <img src="images/header-image.png" alt="Опять двойка" class="header__main-illustrarion">
+      <img src="images/header-image.png" alt="Опять двойка" class="header__main-illustration">
+      <!-- здесь не совсем понял комментарий, при каких условиях теряются пропопрции -->
       <div class="header__square-pic rotation"></div>
     </header>
 
@@ -113,7 +114,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#" class="feynman__link">Подробнее &#8594;</a>
+        <a href="#" class="feynman__link" target="_blank">Подробнее &#8594;</a>
       </section>
 
       <section class="digits">
@@ -169,7 +170,7 @@
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img src="images/khan-book.jpg" alt="книга" class="khan__book-pic">
-            <a href="https://www.labirint.ru/books/483575/" target="_blank" class="khan__buy-link">Купить книгу
+            <a href="https://www.labirint.ru/books/483575/" class="khan__buy-link" target="_blank">Купить книгу
               &#8594;</a>
           </div>
 
@@ -230,20 +231,20 @@
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
+          <!-- свойство opacity не работает при наведении на ссылки с картинкой, аналогично и в footer -->
+          <a href="#" class="resources__link" target="_blank"><img src="images/logo/resources-arzamas.svg" alt="арзамас"
+              class="resources__logo"></a>
+          </li>
           <li>
-            <a href="#" class="resources__link"><img src="images/logo/resources-arzamas.svg" alt="арзамас"
+            <a href="#" class="resources__link" target="_blank"><img src="images/logo/resources-n1.svg" alt="н1"
                 class="resources__logo"></a>
           </li>
           <li>
-            <a href="#" class="resources__link"><img src="images/logo/resources-n1.svg" alt="н1"
-                class="resources__logo"></a>
+            <a href="#" class="resources__link" target="_blank"><img src="images/logo/resources-strelka.svg"
+                alt="стрелка" class="resources__logo"></a>
           </li>
           <li>
-            <a href="#" class="resources__link"><img src="images/logo/resources-strelka.svg" alt="стрелка"
-                class="resources__logo"></a>
-          </li>
-          <li>
-            <a href="#" class="resources__link"><img src="images/logo/resources-polka.svg" alt="полка"
+            <a href="#" class="resources__link" target="_blank"><img src="images/logo/resources-polka.svg" alt="полка"
                 class="resources__logo"></a>
           </li>
         </ul>
@@ -258,23 +259,23 @@
         <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
           <nav class="footer__column-links">
-            <a href="#" class="footer__column-link">Главная</a>
-            <a href="#" class="footer__column-link">Концепция</a>
-            <a href="#" class="footer__column-link">Наставники</a>
+            <a href="#" class="footer__column-link" target="_blank">Главная</a>
+            <a href="#" class="footer__column-link" target="_blank">Концепция</a>
+            <a href="#" class="footer__column-link" target="_blank">Наставники</a>
           </nav>
         </div>
         <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <nav class="footer__column-links">
-            <a href="#" class="footer__column-link">
+            <a href="#" class="footer__column-link" target="_blank">
               <img src="./images/youtube-icon.svg" alt="Ютуб" class="footer__social-icon">
               YouTube
             </a>
-            <a href="#" class="footer__column-link">
+            <a href="#" class="footer__column-link" target="_blank">
               <img src="images/vk_color_white.svg" alt="ВК" class="footer__social-icon">
               ВКонтакте
             </a>
-            <a href="#" class="footer__column-link">
+            <a href="#" class="footer__column-link" target="_blank">
               <img src="./images/tiktok-icon.svg" alt="ТикТок" class="footer__social-icon">
               TikTok
             </a>
